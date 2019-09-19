@@ -8,5 +8,5 @@ extraction:
             - "g++-4.8-multilib"
       index:
          build_command:
-            - cd linux/
+            - cd halflife/linux/
             - make
