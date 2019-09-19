@@ -1,0 +1,12 @@
+extraction:
+   cpp:
+      prepare:
+         packages:
+            - "gcc-4.8"
+            - "gcc-4.8-multilib"
+            - "g++-4.8"
+            - "g++-4.8-multilib"
+      index:
+         build_command:
+            - cd linux/
+            - make
